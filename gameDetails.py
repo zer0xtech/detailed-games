@@ -32,7 +32,7 @@ def userGames():
         for user in response["data"]:
             print(f'{user["requestedUsername"]} - {user["id"]}')
     else:
-        print("Error fetching user ID")
+        print("Error fetching user ID.")
 
 def universeIDfromPlaceID():
     gameID = input('Enter the place ID of the game you want the UniverseID : ')
