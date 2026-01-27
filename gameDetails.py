@@ -37,6 +37,7 @@ def hiddenGames():
                 data2 = viewHiddenGames.json()
                 print(json.dumps(data2, indent=2, ensure_ascii=False))
                 input('Enter anything to continue...')
+                userChoice()
             else:
                 print('Error fetching the request.')
     else:
