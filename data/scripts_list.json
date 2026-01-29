@@ -1,0 +1,20 @@
+{
+    "available_scripts": [
+        {
+            "id": 1,
+            "name": "hiddenGames",
+            "active": false
+        },
+        {
+            "id": 2,
+            "name": "placeIDtouniverseID",
+            "active": true
+        },
+        {
+            "id": 3,
+            "name": "viewGameDetails",
+            "active": true
+        }
+    ]
+
+}
