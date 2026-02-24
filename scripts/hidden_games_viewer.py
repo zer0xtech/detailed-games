@@ -1,9 +1,12 @@
-def viewHiddenGames():
+import os
+from time import sleep
+
+def main():
     os.system('cls')
 
     print('Patched by Roblox :(')
     sleep(2)
-    userChoice()
+    os.system('cls')
     
     # usernameInput = input('Enter the Roblox username of the person you want to see the games : ')
     # gameAmount = input('Enter the amount of games you want to see : ')
@@ -28,4 +31,5 @@ def viewHiddenGames():
     # else:
     #     print("Error fetching user ID.")
 
-hiddenGames()
+if __name__ == "__main__":
+    main()

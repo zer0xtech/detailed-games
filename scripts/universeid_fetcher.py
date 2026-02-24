@@ -1,4 +1,8 @@
-def universeIDfromPlaceID():
+import requests
+import os
+
+def main():
+    os.system('cls')
     gameID = input('Enter the place ID of the game you want the UniverseID : ')
     universeIDRequest = requests.get(f'https://apis.roblox.com/universes/v1/places/{gameID}/universe')
 
@@ -10,4 +14,5 @@ def universeIDfromPlaceID():
     else:
         print("Error fetching the request.")
 
-universeIDfromPlaceID()
+if __name__ == "__main__":
+    main()

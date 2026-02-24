@@ -1,5 +1,3 @@
-from .hiddenGames import viewHiddenGames
-from .universeIDobtainer import universeIDfromPlaceID
-from .viewGameDetails import viewGameDetails
-
-print("[+] Imported ./scripts")
+from .hidden_games_viewer import main
+from .universeid_fetcher import main
+from .game_details_fetcher import main
